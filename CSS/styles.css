@@ -252,6 +252,15 @@ footer:hover .f_1{
     text-shadow: 0 5px 15px #afe0f5;
 }
 
+td:hover{
+    text-shadow: 0 5px 15px rgb(170, 175, 100);
+    transform: scale(1.02);
+}
+
 .f_2 tr:nth-child(even){
     color: #d69cf0;
+}
+
+.l_mid_1 td:nth-child(odd){
+    color: #46d52a;
 }
