@@ -211,7 +211,7 @@ hr {
 }
 
 .copy_text {
-    padding-bottom: 1%;
+    padding-bottom: 0.5%;
     padding-left: 5%;
 }
 
@@ -220,4 +220,38 @@ hr {
     height: 10px;
     border-radius: 100%;
     margin-left: 1.2%;
+}
+
+.head_p:hover .p_head{
+    color: white;
+    text-shadow: 0 5px 15px #afe0f5;
+}
+
+.list_p:hover .p_head{
+    color: white;
+    text-shadow: 0 5px 15px #afe0f5;
+}
+
+.sidebar:hover .p_head{
+    color: white;
+    text-shadow: 0 5px 15px #afe0f5;
+}
+
+.l_mid_1:hover .p_head{
+    color: white;
+    text-shadow: 0 5px 15px #afe0f5;
+}
+
+header:hover .logo-block{
+    color: white;
+    text-shadow: 0 5px 15px #afe0f5;
+}
+
+footer:hover .f_1{
+    color: white;
+    text-shadow: 0 5px 15px #afe0f5;
+}
+
+.f_2 tr:nth-child(even){
+    color: #d69cf0;
 }
